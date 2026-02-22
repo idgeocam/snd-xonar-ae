@@ -69,7 +69,7 @@ sudo dnf install kernel-devel
 ### Build and install
 
 ```bash
-git clone https://github.com/YOURUSER/snd-xonar-ae.git
+git clone https://github.com/idgeocam/snd-xonar-ae.git
 cd snd-xonar-ae
 make
 sudo mkdir -p /lib/modules/$(uname -r)/extra
